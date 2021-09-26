@@ -1,0 +1,580 @@
+/*         TABLE DES STYLE      */
+/*                              */
+/*         header               */
+/*          main                */
+/*          section engine      */
+/*          section work        */
+/*          section usage       */
+/*          section a1          */
+/*          section a2          */
+/*          section a3          */
+/*          section a4          */
+/*          footer              */
+/*          section footer2     */
+/*          section footer3     */
+/*          media               */
+
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800&display=swap');
+
+
+/* header */
+
+
+header{
+    background: #151b2b;
+    width: 1440px;
+    height: 926px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+header .logo img{
+   width: 42px;
+   height:50px;
+   margin-left: 152px;
+   margin-top:42px     
+}
+header p{
+    width:101px;
+    height:30px;
+    margin-top:-40px;
+    margin-left:210px;
+    color:#A8A8C1 ;
+}
+/* main*/
+
+/* section engine */
+
+main section .Engine{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main .Engine div{
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top:-700px;
+    margin-left:152px;
+    max-width:473px;
+    height:73px;   
+}
+main .Engine h1{
+    width: 299px;  
+    height:51px;
+    font-weight: 800; 
+    font-size: 46px;
+    color: #FFFFFF; 
+}
+main .Engine p:first-of-type{
+    margin-top: 24px;
+    width:473px;
+    height:70px;
+    font-weight: 600;
+    font-size: 25px;
+    color:#ffffff;
+}
+main .Engine p:nth-of-type(2){
+    color:#ffffff;
+    margin-top: 24px;
+    width: 380px;
+    height:72px;
+    font-weight: 400;
+    font-size: 16px;
+}
+main .Engine .github1{
+   background-color: #454658;
+   margin-right: 20px;
+   
+}
+main .Engine .github1:hover{
+    zoom:1.2;
+}
+main .github1 img{
+    width: 70px;
+    height:40px
+}
+main .github1 a{
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+
+main .Engine .discord{
+    background-color: #5D64D2;
+}
+main .Engine .discord:hover{
+    zoom:1.2;
+}
+main .discord img{
+    width: 70px;
+    height:40px;
+}
+main .discord a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+main .Engine .img{
+    margin-top: -500px;
+    margin-left: 700px;
+    width:567px;
+    height:687px;
+}
+
+/* section work */
+
+main section .work{
+    max-width: 1440px;
+    margin:0 auto;
+    font-family: 'Darker Grotesque', sans-serif;     
+}
+main .work h2{
+    margin-top: 96px;
+    margin-left:593px;
+    width: 259px;
+    height:35px;
+    font-size: 32px;
+    font-weight: 800;
+    color:#454658;
+}
+main .work p{
+    margin-top: 24px;
+    margin-left: 350px;
+    margin-bottom:32px ;
+    width:700px;
+    height:73px;
+    font-weight: 400;
+    color:#454658;
+    text-align: center;
+}
+main .work img{
+    width:853px ;
+    height:473px;
+    margin-left:296px;
+    margin-bottom:134px ;   
+}
+
+/* section usage */
+
+main section .usage{
+    max-width: 1440px;
+    margin:0 auto;
+    font-family: 'Darker Grotesque', sans-serif;
+    position: relative;    
+}
+main .usage img:first-of-type{
+    position:absolute;
+    top:-50px;
+    left:220px;
+    z-index: 0;
+    opacity: 30%;
+}
+main .usage h2{
+    width:86px;
+    height:35px;
+    margin-left: 680px;
+    margin-bottom: 17px;
+    font-weight: 700;
+    font-size: 32px;
+    color:#454658;
+    z-index: 5;
+}
+main .usage p{
+    width:713px;
+    height:24px;
+    margin-left: 366px;
+    font-weight: 400;
+    text-align: center;
+    color: #454658; 
+    z-index: 5;   
+}
+main .usage img:nth-of-type(2){
+    margin-left: 270px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+main .usage .github1{
+    background-color: #454658;
+    margin-left: 600px;
+    margin-right: 20px;
+ }
+ main .usage .github1:hover{
+     zoom:1.2;
+ }
+ main .github1 a{
+     color: #FFFFFF;
+     text-decoration: none; 
+ }
+ main .usage .discord{
+     background-color: #5D64D2;
+ }
+ main .usage .discord:hover{
+     zoom:1.2;
+ }
+ main .discord a{
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+main .a12{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* section a1*/
+
+main section .a1{
+    margin-left:189px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+main .a1 img{
+    width:156px;
+    height:140px;
+    margin-bottom: 34px;
+    margin-top:125px;
+}
+main .a1 h3{
+    width:323px;
+    height:26px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #454658;
+    margin-bottom: 10px;   
+}
+main .a1 p:first-of-type{
+    width:350px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+main .a1 p:nth-of-type(2){
+    width:408px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+main .a1 a{
+    color: #5D64D2;
+    text-decoration: none;
+    width: 408px;
+    height:16px;
+    font-weight: 700;
+    font-size: 12px ;
+    margin-bottom: 108px;
+}
+main .a1 a:hover{
+    color:black;
+}
+
+/* section a2 */
+
+main section .a2{
+    margin-right:304px;
+    margin-left: 223px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+main .a2 img{
+    width:305px;
+    height:169px;
+    margin-bottom:34px;
+    margin-top:101px;
+}
+main .a2 h3{
+    width:173px;
+    height:26px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #454658;
+    margin-bottom: 10px;   
+}
+main .a2 p:first-of-type{
+    width:428px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+main .a2 p:nth-of-type(2){
+    width:428px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+main .a2 a{
+    color: #5D64D2;
+    text-decoration: none;
+    width: 408px;
+    height:16px;
+    font-weight: 700;
+    font-size: 12px ;
+    margin-bottom: 108px;
+}
+main .a2 a:hover{
+    color: black;
+}
+
+main .a34{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* section3*/
+
+main .a34 .a3{
+    margin-left:189px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+main .a3 img{
+    width:262px;
+    height:233px;
+    margin-bottom:24px;
+    margin-top:108px;
+}
+main .a3 h3{
+    width:251px;
+    height:26px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #454658;
+    margin-bottom: 10px;   
+}
+main .a3 p:first-of-type{
+    width:428px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+main .a3 p:nth-of-type(2){
+    width:428px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+main .a3 a{
+    color: #5D64D2;
+    text-decoration: none;
+    width: 408px;
+    height:16px;
+    font-weight: 700;
+    font-size: 12px ;
+    margin-bottom: 108px;
+}
+main .a3 a{
+    color: #5D64D2;
+    text-decoration: none;
+    width: 408px;
+    height:16px;
+    font-weight: 700;
+    font-size: 12px ;
+    margin-bottom: 108px;
+}
+main .a3 a:hover{
+    color: black;
+}
+/* section4 */
+
+main section .a4{
+    margin-right:304px;
+    margin-left: 223px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+main .a4 img{
+    width:421px;
+    height:232px;
+    margin-bottom:24px;
+    margin-top:101px;
+}
+main .a4 h3{
+    width:112px;
+    height:26px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #454658;
+    margin-bottom: 10px;   
+}
+main .a4 p:first-of-type{
+    width:428px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+main .a4 a{
+    color: #5D64D2;
+    text-decoration: none;
+    width: 408px;
+    height:16px;
+    font-weight: 700;
+    font-size: 12px ;
+    margin-bottom: 108px;
+}
+main .a4 a:hover{
+    color: black;
+}
+main .end{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main .end h3{
+    margin-top:167px;
+    margin-left:600px;
+    margin-bottom:266px; 
+    width: 343px;
+    height:35px;
+    font-weight: 700;
+    font-size: 32px;   
+}
+/* footer*/
+
+footer{
+    background-color: #151b2b;
+}
+footer .logo2{
+    display: flex;
+    margin-top:10px;
+    justify-content: space-around;
+}
+footer .logo2 img{
+    height:75px;
+    margin-left:80px;          
+}
+footer .logo2 p:first-of-type{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-left: -80px;  
+}
+footer .slogan p{
+    width: 300px;
+    margin-left:150px;
+    margin-top: 60px;
+}
+footer .lien{
+    display: flex;
+    margin-left:150px;
+}
+footer .lien img{
+    width:50px;
+    height:30px;
+    margin-top:50px;
+    margin-right: 20px;
+}
+footer .lien img:hover{
+    zoom:1.2;
+}
+footer .debut{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* footer2*/
+
+footer .footer2{
+    display: flex ;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+footer .footer2 a:hover{
+    color:blue;
+}
+footer .footer2 .ressources{
+    display: flex;
+    flex-direction: column;
+    margin-right:75px ;
+}
+footer .ressources h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+footer .ressources a{
+    margin-bottom: 20px;
+    color: #A8A8C1;
+    text-decoration: none;
+}
+footer .footer .community{
+    display: flex;
+    flex-direction: column;
+    margin-right:75px ;
+}
+footer .community h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+footer .community a{
+    margin-bottom: 20px;
+    color: #A8A8C1;
+    text-decoration: none;
+}
+footer .footer2 .Qovery{
+    display: flex;
+    flex-direction: column;
+    margin-right:75px ;
+}
+footer .Qovery h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+footer .Qovery a{
+    margin-bottom: 20px;
+    color: #A8A8C1;
+    text-decoration: none;
+}
+footer .footer2 .compagny{
+    display: flex;
+    flex-direction: column;
+    margin-right:75px ;
+}
+footer .compagny h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+footer .compagny a{
+    margin-bottom: 20px;
+    color: #A8A8C1;
+    text-decoration: none;
+}
+
+/* footer3*/
+footer .footer3 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+footer .footer3 div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+footer .footer3 p{
+    margin-right: 20px;
+    color:gray;
+}
+footer .footer3 a{
+    color:blue ;
+    text-decoration: none;
+}
+footer .footer3 a:hover{
+    color: red;
+}
+@media screen and (max-width: 1447px){
+    header{
+        width: 100%;
+    }
+    main section .Engine {
+        width: 100%;
+    } 
+    main .Engine img{
+        margin-left:-100px;
+    }
+    main .blockbleu{
+        width: 100%;
+    }
+    main .usage img:first-of-type{
+        margin-left: -100px;
+     }
+     
+}
+@media screen and (max-width:1347px){
+    main .Engine img{
+        margin: 0 auto;
+    }  
+    footer .footer2{
+        margin:0 auto;
+    }
+    main .usage img:nth-of-type(2){
+        margin-left:100px;
+    }
+}
